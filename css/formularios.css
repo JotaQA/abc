@@ -1,0 +1,92 @@
+/*
+ * ABC ERP - Sistema ERP para PYMEs
+ * Copyright (C) 2011 Santiago Faci <santi@arkabytes.com>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
+/* FORMULARIOS */
+
+fieldset {
+    
+    padding-left: 20px;
+    background-color: #CCC8C1;
+    border-style: none;
+    margin-top: -14px;
+}
+
+fieldset ol {
+    
+    padding: 0px;
+    list-style: none;
+}
+
+fieldset li {
+
+    margin-bottom: 5px;
+}
+
+fieldset.submit {
+
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+legend {
+
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+label {
+
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    clear: left;
+}
+
+/* login */
+
+fieldset.login {
+
+    margin: auto;
+    width: 300px;
+}
+
+span.login {
+    
+    margin: auto;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 30px;
+}
+
+/* error */
+span.error {
+    
+    color: red;
+}
+.cargando {
+	background: white url(http://localhost/abc/img/wait_animation3.gif) no-repeat right center;
+}
