@@ -5,9 +5,8 @@ ABC es una aplicación ERP para gestionar Clientes, Proveedores, Pedidos, Factur
 
 [http://abc.arkabytes.com](http://abc.arkabytes.com)
 
------------
 Descripción
------------
+=
 
     ABC ERP - Aplicación Web ERP para PYMEs
               Gestión de Clientes y Proveedores
@@ -75,31 +74,31 @@ Librerías de terceros utilizadas
     The jQuery Project
     http://jquery.com
 
-- jQuery UI v.18.7
+- _jQuery UI v.18.7_
 
     The jQuery Project
     http://jqueryui.com
 
-- FancyZoom
+- _FancyZoom_
 
     Script para visualizar imágenes
     http://www.cabel.name/2008/02/fancyzoom-10.html
     
-- FullCalendar
+- _FullCalendar_
 
     http://arshaw.com/fullcalendar/
 
-- FPDF
+- _FPDF_
 
     Librería para la generación de documentos pdf
     http://www.fpdf.org
 
-- Script para la generación de facturas (se ha utilizado una modificación sobre el original)
+- _Script para la generación de facturas (se ha utilizado una modificación sobre el original)_
 
     Autor Xavier Nicolay
     http://www.fpdf.org/en/script/script20.php
 
-- JQuery Calculator
+- _JQuery Calculator_
 
     Calculadora inline
     http://keith-wood.name/calculator.html
