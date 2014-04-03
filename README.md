@@ -6,7 +6,7 @@ ABC es una aplicación ERP para gestionar Clientes, Proveedores, Pedidos, Factur
 [http://abc.arkabytes.com](http://abc.arkabytes.com)
 
 Descripción
-=
+----
 
     ABC ERP - Aplicación Web ERP para PYMEs
               Gestión de Clientes y Proveedores
