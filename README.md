@@ -8,11 +8,12 @@ ABC es una aplicación ERP para gestionar Clientes, Proveedores, Pedidos, Factur
 Descripción
 -----------
 
-ABC ERP - Aplicación Web ERP para PYMEs
-          Gestión de Clientes y Proveedores
-          Gestión de Pedidos y Facturación
-          Gestión del Inventario y Stock
-          Gestión de Tareas y Eventos
+ABC ERP
+- Aplicación Web ERP para PYMEs
+- Gestión de Clientes y Proveedores
+- Gestión de Pedidos y Facturación
+- Gestión del Inventario y Stock
+- Gestión de Tareas y Eventos
 
 Estructura
 ----------
