@@ -70,7 +70,7 @@ Ver el documento INSTALL
 Librerías de terceros utilizadas
 ----------------------------
 
-- jQuery v1.7.1
+- _jQuery v1.7.1_
     
     The jQuery Project
     http://jquery.com
