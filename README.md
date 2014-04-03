@@ -76,25 +76,31 @@ Librerías de terceros utilizadas
     http://jquery.com
 
 - jQuery UI v.18.7
+
     The jQuery Project
     http://jqueryui.com
 
 - FancyZoom
+
     Script para visualizar imágenes
     http://www.cabel.name/2008/02/fancyzoom-10.html
     
 - FullCalendar
-http://arshaw.com/fullcalendar/
+
+    http://arshaw.com/fullcalendar/
 
 - FPDF
+
     Librería para la generación de documentos pdf
     http://www.fpdf.org
 
 - Script para la generación de facturas (se ha utilizado una modificación sobre el original)
+
     Autor Xavier Nicolay
     http://www.fpdf.org/en/script/script20.php
 
 - JQuery Calculator
+
     Calculadora inline
     http://keith-wood.name/calculator.html
 
