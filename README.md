@@ -6,7 +6,7 @@ ABC es una aplicación ERP para gestionar Clientes, Proveedores, Pedidos, Factur
 [http://abc.arkabytes.com](http://abc.arkabytes.com)
 
 -----------
-DESCRIPCIÓN
+Descripción
 -----------
 
     ABC ERP - Aplicación Web ERP para PYMEs
@@ -16,7 +16,7 @@ DESCRIPCIÓN
               Gestión de Tareas y Eventos
 
 ----------
-ESTRUCTURA
+Estructura
 ----------
 
 - admin
@@ -52,7 +52,7 @@ ESTRUCTURA
     Contiene el backup de la estructura de la Base de Datos (MySQL) utilizada
 
 ----------
-REQUISITOS
+Requisitos
 ----------
 
 - Servidor Web Apache
@@ -61,13 +61,13 @@ REQUISITOS
 - Driver php-mysqlnd
 
 --------------------------------
-INTRUCCIONES PARA SU INSTALACIÓN
+Instalación
 --------------------------------
 
 Ver el documento INSTALL
 
 ----------------------------
-LIBRERIAS EXTENAS UTILIZADAS
+Librerías de terceros utilizadas
 ----------------------------
 
 - jQuery v1.7.1
@@ -99,7 +99,7 @@ http://arshaw.com/fullcalendar/
     http://keith-wood.name/calculator.html
 
 -------
-AUTORES
+Autores
 -------
 
     Santiago Faci <santi@arkabytes>
