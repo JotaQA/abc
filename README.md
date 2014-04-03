@@ -102,4 +102,4 @@ Librerías de terceros utilizadas
 Autores
 -------
 
-    Santiago Faci <santi@arkabytes>
+    Santiago Faci <santi@arkabytes.com>
