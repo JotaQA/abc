@@ -53,8 +53,8 @@
     $id_proveedor = $bbdd->get_id_proveedor($proveedor);
     if ($id_proveedor == "") {
         $id_proveedor = NULL;
-    	echo "<span class='error'>¡ERROR! El Proveedor <strong>" . $proveedor . "</strong> no existe. Debería darlo de alta para continuar</span>";
-    	return;
+    	//echo "<span class='error'>¡ERROR! El Proveedor <strong>" . $proveedor . "</strong> no existe. Debería darlo de alta para continuar</span>";
+    	//return;
     }
     
     if ($modificar != "") {
