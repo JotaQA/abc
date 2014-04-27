@@ -134,7 +134,7 @@ $(function() {
     </li>
     <li>
         <label><strong>Proveedor</strong></label>
-        <input type="text" name="proveedor" id="proveedor" class="required" size="30" value="<?php echo $proveedor->nombre; ?>"/> <a href="#" id="crear_proveedor" title="Dar de alta un Proveedor">+</a>
+        <input type="text" name="proveedor" id="proveedor" size="30" value="<?php echo $proveedor->nombre; ?>"/> <a href="#" id="crear_proveedor" title="Dar de alta un Proveedor">+</a>
     </li>
     <li>
         <label>Imagen</label>
