@@ -45,16 +45,24 @@
 
     $bbdd = new BBDD();
     
-    if ($proveedor == "") {
+    /*if ($proveedor == "") {
     	echo "<span class='error'>¡ERROR! Debe asignarse un proveedor al artículo</span>";
     	return;
+    }*/
+
+    if ($proveedor != "") {
+        $id_proveedor = $bbdd->get_id_proveedor($proveedor);
+        if ($id_proveedor == "") {
+            echo "<span class='error'>¡ERROR! El Proveedor <strong>" . $proveedor . "</strong> no existe. Debería darlo de alta para continuar</span>";
+            return;
+        }
     }
-    
-    $id_proveedor = $bbdd->get_id_proveedor($proveedor);
-    if ($id_proveedor == "") {
-        $id_proveedor = NULL;
-    	//echo "<span class='error'>¡ERROR! El Proveedor <strong>" . $proveedor . "</strong> no existe. Debería darlo de alta para continuar</span>";
-    	//return;
+    else {
+        $id_proveedor = "NULL";
+    }
+
+    if ($stock == "") {
+        $stock = 0;
     }
     
     if ($modificar != "") {
@@ -112,13 +120,13 @@
     	echo "El Artículo <strong><em>" . $nombre . "</em></strong> se ha actualizado correctamente";
     }
     else {
-    	if ($bbdd->es_articulo($nombre)) {
+        if ($bbdd->es_articulo($nombre)) {
     		echo "<span class='error'>¡ERROR! El Artículo <strong>" . $nombre . "</strong> ya existe en la Base de Datos. No se permiten nombres duplicados</span>";
     		return;
     	}
     	
     	$sql = "INSERT INTO articulos (nombre, descripcion, stock, precio_coste, precio_venta, id_tipo_iva, observaciones, " .
-    			"imagen1, imagen2, imagen3, miniatura, id_proveedor) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    			"imagen1, imagen2, imagen3, miniatura, id_proveedor) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     	$statement = $bbdd->conexion->prepare($sql);
     	$statement->bind_param("ssiddisssssi", $nombre, $descripcion, $stock, $precio_compra, $precio_venta, $id_tipo_iva, $observaciones,
     		$nombre_imagen1, $nombre_imagen2, $nombre_imagen3, $nombre_miniatura, $id_proveedor);
